@@ -4,7 +4,7 @@ A collection of data-processing classes useful for collecting stats from a list 
 
 ### How to use this
 
-```
+```python
 def process(data: list, processors: list[Processor]):
     for block in data:
         for p in processors:
